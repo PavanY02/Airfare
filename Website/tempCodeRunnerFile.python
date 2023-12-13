@@ -1,0 +1,10 @@
+def introduce(name, skills):
+    print(f"Hey there! I'm {name} and here are some things I'm skilled in:")
+    for index, skill in enumerate(skills, start=1):
+        print(f"{index}. {skill}")
+
+skills = ["Python", "Java", "Web development", "Android Studio"]
+name = "Konda Sarvari Harshitha"
+introduce(name, skills)
+
+    
